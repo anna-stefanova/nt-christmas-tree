@@ -14,7 +14,7 @@ module.exports = merge(commonConfiguration, {
     },
     devServer: {
         host: 'localhost',
-        port: 3000,
+        port: 4646,
         open: true,
         https: false,
         allowedHosts: 'all',
