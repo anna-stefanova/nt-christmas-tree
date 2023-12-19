@@ -6,9 +6,6 @@ import init from './init';
 
 import './style.css';
 import {GLTFLoader} from "three/addons/loaders/GLTFLoader";
-import ambientLightNode from "three/addons/nodes/lighting/AmbientLightNode";
-import {OBJLoader} from "three/addons/loaders/OBJLoader";
-import {MTLLoader} from "three/addons/loaders/MTLLoader";
 const { data, sizes, camera, scene, canvas, controls, renderer } = init();
 
 
